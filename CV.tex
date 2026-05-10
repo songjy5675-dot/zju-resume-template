@@ -96,60 +96,55 @@
   \begin{tikzpicture}[remember picture, overlay] 
     \node[anchor = north west] at ($(current page.north west)+(0.5cm,+1.0cm)$) {\includegraphics[height=6cm]{zju.png}};
   \end{tikzpicture}%
-\centerline{\LARGE\bfseries{胡豆}} 
+\centerline{\LARGE\bfseries{宋佳雨}} 
 
-\centerline{\normalsize{\faPhone\ 111-1111-1111 \quad \faEnvelopeO\ \href{mailto:3230100000@zju.edu.cn}{3230100000@zju.edu.cn}}} 
-
-\centerline{\normalsize{\faGithubSquare\ \href{https://github.com/maksymilan}{https://github.com/maksymilan} \quad \faRssSquare\ \href{https://maksymilan.github.io/}{https://maksymilan.github.io}}} 
+\centerline{\normalsize{\faPhone\ 18648675675 \quad \faEnvelopeO\ \href{mailto:3230101957@zju.edu.cn}{3230101957@zju.edu.cn}}} 
     
 \section{\makebox[\widthof{\faGraduationCap}][c]{\color{CVBlue}\faGraduationCap}\ 教育背景}    
 \textbf{浙江大学} \hfill 2023.9 -- 至今\\[0.5em] % 标题和正文间加一点距离
-CC98烂坑挖掘工程与技术\quad 大二 
+信息工程\quad 大三 
 \begin{itemize}[nosep]
-    \item 相关课程：《烂坑挖掘及基础》、《高级挖坑技巧》、《烂坑数理统计》
+    \item 主修GPA：4.19       排名：64/129
 \end{itemize}
 
-\section{\makebox[\widthof{\faUsers}][c]{\color{CVBlue}\faUsers}\ 项目经历}
+\section{\makebox[\widthof{\faUsers}][c]{\color{CVBlue}\faUsers}\ 项目科研经历}
 
 % --- 第一个项目 ---
 % 将标题行末尾的 \\ 替换为 \titlebreak 命令
-\textbf{98烂坑风控与可视化作战平台} \hfill 2024.08 -- 至今 \titlebreak
-项目描述：为维护cc98社区的讨论纯度、净化“心灵之约”版块风气，本项目旨在对“烂坑”进行科学、严谨的量化分析，并引入\textbf{大语言模型(LLM)}对烂坑帖进行\textbf{自动化情感极性与“离谱指数”标注}。
+\textbf一种基于人工表面等离激元的通感一体化微带传输线结构设计} \hfill 2025.10 -- 至今 \titlebreak
+项目描述：随着智能感知系统和无线通信技术的发展，在同一设备中同时实现环境感知与信息传输的需求不断增加。现有技术中，传感器与通信模块通常采用独立结构实现，导致系统结构复杂、体积较大，并且难以实现高集成度。人工表面等离子激元结构具有强电磁场局域特性以及良好的频率选择特性，可在微波频段形成明显的谐振响应。当外界环境对SPPs结构产生扰动时，其谐振频率会发生变化，因此可用于环境传感。然而，现有SPPs传感结构主要用于独立传感器设计，缺乏与通信传输线结构的一体化设计方法。因此，有必要提出一种能够同时实现电磁传感与信息传输功能的一体化系统。
 % 在 itemize 的选项中，使用 topsep=\intraProjectListTopSep 来控制上边距
 \begin{itemize}[nosep, topsep=\intraProjectListTopSep]
-    \item \textbf{数据与后端}：运用 \textbf{Go} 语言及 \textbf{GORM} 框架，实现对全站“烂坑”帖的7x24小时全天候\textbf{抓取}与\textbf{入库}(MySQL)。
-    \item \textbf{可视化前端}：采用原生 \textbf{HTML/CSS/JS} 构建了“烂坑”实时监控\textbf{作战大屏}。实现了坑主成分分析、挖坑热力图、年度烂坑王榜单等\textbf{可视化图表}，并通过 \textbf{AJAX} 异步刷新，确保数据洞察的实时性。
-    \item \textbf{核心产出}：全面掌握了从\textbf{数据采集、清洗、LLM标注到可视化分析}的“反烂坑”全链路技术。
+    \item \textbf{专利在投}：专利题目 \textbf{一种电磁传感与信息传输一体化方法和系统} 
+    \item \textbf{论文在投}：论文题目 \textbf{SPPs Structure Touch Sensing Method with Microstrip Transmission Line} ，针对物联网及智能穿戴设备中感知与通信功能高度集成的需求，本研究提出一种兼容射频信号传输的微带触控传感设计。该设计利用人工表面等离激元的色散特性，构建具有多周期并行开路支路的U型结构。实验表明，该结构在低频段呈现受触控影响的谐振特性，而高频段则保持稳定的信号通带能力。通过引入物理信息驱动的特征提取与高斯过程回归算法，实现了在保持4.7-6.0 GHz高频通信通带稳定的同时，对4.7 GHz以下触控位置的亚厘米级精准定位。
+    \item \textbf{本人工作}：在导师提出思路后独立完成U型SPP传感器的全波电磁仿真模型的建立，通过调节几何参数优化带内波动与插损，验证了传感性能与通信带宽的兼容性；搭建基于特征频率提取的定位模型，利用MATLAB开发高斯过程回归算法，通过对40维特征向量的非线性映射，将物理坐标偏移标准化，实现回归预测；进行基于FR-4基板的传感器加工及矢量网络分析仪实测，分析带内纹波对定位鲁棒性的影响，完善了物理信息框架下的频谱对齐预处理流程。以第一作者身份完成论文撰写及专利申请书起草，相关成果已投递至MDPI Electronics。
 \end{itemize}
 
 % 使用 \projectsep 命令来分隔两个项目
 \projectsep
 
 % --- 第二个项目 ---
-\textbf{AIGC驱动的超进化自动挖坑机 (Agent)} \hfill 2025.02 -- 至今 \titlebreak
-项目描述：为探索心灵版规的边界，以及测试版主锁沉反应速度的极限，本项目基于\textbf{多智能体协作(MCP)与LLM}技术，开发了一款能\textbf{自主“挖坑”与“互坑”}的AI Agent。
+\textbf{浙江省第十五届“挑战杯”大学生创业计划竞赛} \hfill 2026.4 -- 至今 \titlebreak
+项目名称：“衣应”俱全，感而遂通——新一代机器人触觉引领者
+项目描述：本项目定位为聚焦工业协作机器人的柔性触觉感知解决方案提供商，核心产品为机器人柔性电子皮肤。团队依托自主研发的柔性雷达射频传感技术，成功突破了传统刚性传感器在贴合度、柔韧性上的局限，克服了常规电子皮肤在灵敏度、耐用性、适配性上的不足。方案实现两大核心突破：1.将分布式触觉感知与机器人机身进行深度柔性融合，电子皮肤可任意弯折、覆盖机器人复杂曲面；2.提供“安全防护—精细操控—全场景感知”一体化解决方案，全面赋能工业协作机器人与灵巧手等场景。项目含金量体现在以下几个方面：（1）全球首创雷达柔性射频传感机理，在不牺牲灵敏度的前提下解析无盲区的触觉信号，解决了传统传感器“柔而不敏、敏而不柔”的痛点；（2）与机器人本体的深度融合，电子皮肤成为机器人的“外感知层”，显著提升人机协作安全性与操作精度效率；（3）为具身智能产业落地与智能制造升级提供核心感知基础，助力机器人从“被动执行”迈向“主动感知”。本项目荣获第十八届浙江大学“蒲公英”大学生创新大赛金奖季军，为本科生组第一名，并获中国工程院外籍院士李尔平教授签名推荐。团队致力于成为柔性触觉感知领域领跑者，为具身智能产业落地与智能制造升级注入核心科技动能
 \begin{itemize}[nosep, topsep=\intraProjectListTopSep]
-    \item \textbf{并发与调度}：后端采用 \textbf{Go} 语言，充分利用 \textbf{Goroutine} 和 \textbf{Channel} 的高并发模型，模拟\textbf{用户并发在线}，执行定时挖坑，确保挖坑行动的\textbf{隐蔽性}与\textbf{高效性}。
-    \item \textbf{实时监控与响应}：运用 \textbf{WebSocket} 协议实现了对目标帖子的\textbf{实时监听与交互}。确保在烂坑被识破的第一时间，Agent能光速完成\textbf{“lktp”}或\textbf{反向钓鱼}操作，展现出极高的AI博弈能力。
-    \item \textbf{可视化GUI}：前端使用 \textbf{React} 框架构建了\textbf{后台管理的可视化面板 (Admin Panel)}。可一键下达挖坑指令、动态调整Agent的\textbf{指令}、并实时监控数据。
+    \item \textbf{项目进度}：4.3 获得浙江大学第十八届“蒲公英”大学生创新创业大赛全场季军，本科生组第一，5.22 即将参加挑战杯省赛决赛
 \end{itemize}
 
-\section{\makebox[\widthof{\faCogs}][c]{\color{CVBlue}\faCogs}\ 技术栈}
+\section{\makebox[\widthof{\faCogs}][c]{\color{CVBlue}\faCogs}\ 科研技能}
 \begin{itemize}[nosep]
-    \item \textbf{编程语言：} \textbf{Go}, Python, C++
-    \item \textbf{开发工具：} SSH, Git, Vim, MakeFile,LaTex
-    \item \textbf{操作系统：} Linux
+    \item \textbf{编程类：} 熟练掌握maltab，可借助其强大的矩阵处理能力完成复杂数据处理任务。
+    \item \textbf{建模仿真类：} 熟练掌握CST软件，可用其进行仿真以及后续PCB的图形导出。
+    \item \textbf{文本类：} 可使用LaTex完成学术论文撰写排版，具备良好的英文文献阅读能力，熟练使用用adobe Illustrator生成论文插图。
 \end{itemize}
 \section{\makebox[\widthof{\faGraduationCap}][c]{\color{CVBlue}\faList}\ 获奖情况}
 \begin{itemize}
-    \item CC98年度用户 \hfill 2023.12
-    
+    \item 云峰学园三等奖学金 \hfill 2024.11
+    \item 2024浙江省大学物理创新竞赛三等奖 \hfill 2024.11
 \end{itemize}
     
 \section{\makebox[\widthof{\faInfo}][c]{\color{CVBlue}\faInfo}\ 其他}
 \begin{itemize}[parsep=0.5ex]
-    \item \textbf{技术博客：} \href{https://maksymilan.github.io/}{https://maksymilan.github.io/}
-    \item \textbf{GitHub：} \href{https://github.com/maksymilan}{https://github.com/maksymilan} 
-    \item \textbf{英语水平：} CET-4, CET-6
+    \item \textbf{英语水平：} CET-4 565, CET-6 487
 \end{itemize}
 \end{document}
